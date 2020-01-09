@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
+import MarkdownPreviewer from './MarkdownPreviewer';
 
 
-ReactDOM.render(<input />, document.getElementById('root'));
+ReactDOM.render(<MarkdownPreviewer />, document.getElementById('root'));
 
