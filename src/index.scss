@@ -6,29 +6,29 @@
     width: 85%;
     margin: auto;
     font-size: 1rem;
-  }
-  #preview{
-    background-color: #aac;
-    box-shadow: 0 0 20px 8px black;
-    padding: 40px;
-  }
-  #editorContainer{
-    display:flex;
-    justify-content: center;
-    box-shadow: 0 0 20px 8px black;
-  }
-  #editor{
-    width: 100%;
-    padding: 40px;
-    font-size: 1.2rem;
-    font-family: serif;
-    background-color: #ddd;
-    min-height: 150px;
-  }
-  .titles{
-    text-align: center;
-    font-size: 2rem;
-    font-weight: bold;
+    .titles{
+      text-align: center;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    #preview{
+        background-color: #aac;
+        box-shadow: 0 0 20px 8px black;
+        padding: 40px;
+      }
+    #editorContainer{
+        display:flex;
+        justify-content: center;
+        box-shadow: 0 0 20px 8px black;
+        #editor{
+          width: 100%;
+          padding: 40px;
+          font-size: 1.2rem;
+          font-family: serif;
+          background-color: #ddd;
+          min-height: 150px;
+        }
+      }
   }
   @media only screen and (max-width: 800px) {
     
