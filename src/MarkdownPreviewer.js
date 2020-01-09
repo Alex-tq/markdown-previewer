@@ -1,5 +1,7 @@
 import React from 'react';
-import marked from 'marked'
+import Editor from './Editor';
+import Preview from './Preview';
+import marked from 'marked';
 
 class MarkdownPreviewer extends React.Component{
     constructor(props){
@@ -54,17 +56,5 @@ class MarkdownPreviewer extends React.Component{
       );
     }
   } 
-  function Editor(props){
-    return(
-      <div id='editorContainer'>
-        <textarea id='editor' onChange={props.onChange} value={props.value} />
-      </div>
-    );
-  }
-  function Preview(props){
-    return(
-      <div id='preview' dangerouslySetInnerHTML ={{__html:marked(props.input)}}></div>
-    );
-  }
   
   export default MarkdownPreviewer
