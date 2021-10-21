@@ -1,4 +1,4 @@
-[Click here to see it](https://codepen.io/Alex_tq/full/RwwXVwQ).
+[Click here to see it](https://alex-tq.github.io/markdown-previewer/).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
